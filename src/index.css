@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.statistics{
+  padding: 0;
+  margin: 0px;
+  font-size: 12px;
+
+}
+.statistics ul{
+  list-style-type: none;
+}
+.statistics li{
+  width: 200px;
+  margin: 0px;
+  padding: 0 10px;
+  color: #707b92;
+  font-size: 13px;
+  font-weight: bold;
+  list-style-type: none;
+}
+.statistics li:last-child{
+  font-size: 16px;
+  color: #7b7b7c;
+  font-weight: bold;
+  list-style-type: none;
+  margin: 0;
+}
+.tab{
+  background: #e0e5eb;
+  color: #485e72;
+  font-weight: bold;
+}
+.tab-selected{
+  background: #e0e5eb;
+  color: #485e72;
+}
+.tab-normal:hover{
+  background: #485e72;
+  color: white;
+}
+.hauteur{
+  height: 190px;
+}
+.cercleBorder{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #5da7ec;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cercleIn{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+.cercleBorderNo{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #d7e1e9;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cercleBorderNo:hover, .cercleBorder:hover{
+  cursor: pointer;
+}
+.presentation{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.presentation li{
+  margin: 0;
+  padding: 0;
+}
+.fa-times{
+  margin: 0 4px;
+  color: #e98a83;
+}
