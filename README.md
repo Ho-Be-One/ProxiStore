@@ -6,10 +6,10 @@
 Campaigns list
 !['home'](/img/img-1.png)
 
-page de detail de campgne 
+Detail campaign 
 !['home'](/img/img-2.png)
 
-### `Detail campaign`
+### `Tech`
 
 * Reactjs
 * Bootstrap framework
